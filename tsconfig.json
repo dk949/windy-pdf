@@ -1,16 +1,16 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "module": "ESNext",
         "declaration": true,
-        "declarationMap": true,
+        "declarationMap": true, // This is valid because `declaration` is true
         "sourceMap": true,
         "jsx": "react-jsx",
         "moduleResolution": "node",
         "esModuleInterop": true,
         "skipLibCheck": true,
         "strict": true,
-        "outDir": "./dist"
+        "outDir": "./dist",
+        "emitDeclarationOnly": true
     },
     "include": [
         "src/**/*"

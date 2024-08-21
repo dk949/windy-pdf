@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "ESNext",
+        "outDir": "./dist/esm",
+        "declaration": false, // No declaration files generated here
+        "emitDeclarationOnly": false,
+        "declarationMap": false, // Ensure this is not included
+        "sourceMap": true // Keep source maps for JS files if needed
+    }
+}
