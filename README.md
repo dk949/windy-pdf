@@ -24,17 +24,15 @@ setup(config.default);
 
 // Create Document Component
 const MyDocument = () => (
-  <Document>
-    <Page size="A4" className="felx flex-row bg-[#E4E4E4]">
-      <View className="m-2 p-2 flex-grow">
-        <Text>Section #1</Text>
-      </View>
-      <View className="m-2 p-2 flex-grow">
-        <Text>Section #2</Text>
-      </View>
+<Document>
+    <Page size="A4" className="flex flex-row bg-[#E4E4E4]">
+        <View className="m-2 p-2 grow">
+            <Text>Section #1</Text>
+        </View>
+        <View className="m-2 p-2 grow">
+            <Text>Section #2</Text>
+        </View>
     </Page>
-  </Document>
+</Document>
 );
-
-
 ```
