@@ -1,6 +1,6 @@
 {
     "name": "windy-pdf",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Use tailwind in react-pdf with the `className` attribute",
     "main": "disr/index.js",
     "types": "dist/index.d.ts",
