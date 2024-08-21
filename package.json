@@ -1,0 +1,37 @@
+{
+    "name": "windy-pdf",
+    "version": "0.1.0",
+    "description": "Use tailwind in react-pdf with the `className` attribute",
+    "main": "disr/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dk949/windy-pdf.git"
+    },
+    "keywords": [
+        "tailwind",
+        "react",
+        "react-pdf"
+    ],
+    "author": "dk949",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dk949/windy-pdf/issues"
+    },
+    "homepage": "https://github.com/dk949/windy-pdf#readme",
+    "dependencies": {
+        "react-pdf-tailwind": "^2.3.0"
+    },
+    "devDependencies": {
+        "@react-pdf/renderer": "^3.4.4",
+        "@types/node": "^22.4.2",
+        "@types/react": "^18.3.4",
+        "tailwindcss": "^3.4.10"
+    }
+}
